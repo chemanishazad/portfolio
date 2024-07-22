@@ -87,7 +87,8 @@ class ServiceSection extends StatelessWidget {
               ),
               GestureDetector(
                 onTap: () {
-                  const url = 'assets/manish_resume.pdf';
+                  const url =
+                      'https://drive.google.com/file/d/1XpSP0etE2HkqWJTsyRGSjQXZlv-O9h1U/view?usp=sharing';
                   launch(url);
                 },
                 child: MouseRegion(
